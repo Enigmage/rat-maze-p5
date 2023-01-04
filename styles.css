@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #fffdd0, #fff);
+  font-family: "Roboto Condensed", "Times New Roman", Times, serif, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menu {
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.btn {
+  background: black;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 3% 5%;
+  border-radius: 20%;
+  font-size: 1.2rem;
+}
