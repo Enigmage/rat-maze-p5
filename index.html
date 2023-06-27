@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <title>Rat in a Maze</title>
     <link rel="stylesheet" href="styles.css" />
-    <script
-      defer
-      src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"
-    ></script>
+    <!-- <script -->
+    <!--   defer -->
+    <!--   src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js" -->
+    <!-- ></script> -->
     <script
       defer
       src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"
@@ -16,7 +16,10 @@
   </head>
   <body>
     <main>
-      <h1 x-data="{title: 'Rat in a Maze'}" x-text="title"></h1>
+      <button id="startBtn">Start</button>
+      <button id="resetBtn">Reset</button>
+      <button id="clearBtn">Clear</button>
+      <h1>Rat in a Maze</h1>
       <div id="my-canvas"></div>
     </main>
   </body>

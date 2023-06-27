@@ -13,6 +13,7 @@ body {
   font-family: "Roboto Condensed", "Times New Roman", Times, serif, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  user-select: none;
 }
 
 main {
@@ -40,4 +41,8 @@ main {
   padding: 3% 5%;
   border-radius: 20%;
   font-size: 1.2rem;
+}
+
+#my-canvas {
+  min-width: 40vw;
 }
